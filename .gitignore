@@ -1,0 +1,21 @@
+# Ignore bundler config.
+/house_picking_api/.bundle
+
+# Ignore the default SQLite database.
+/house_picking_api/db/*.sqlite3
+/house_picking_api/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/house_picking_api/log/*
+/house_picking_api/tmp/*
+!/house_picking_api/tmp/.keep
+!/house_picking_api/log/.keep
+
+/house_picking_front/node_modules/
+/house_picking_front/dist/
+/house_picking_front/npm-debug.log*
+/house_picking_front/yarn-debug.log*
+/house_picking_front/yarn-error.log*
+/house_picking_front/test/unit/coverage
+/house_picking_front/test/e2e/reports
+/house_picking_front/selenium-debug.log
